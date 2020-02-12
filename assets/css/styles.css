@@ -234,7 +234,7 @@ h5,
 h6,
 .h6 {
   font-family: 'Roboto', serif;
-  color: #ababab;
+  /* color: #ababab; */
   font-weight: 400;
   line-height: 1.2em;
   /* margin-bottom: 20px; */
