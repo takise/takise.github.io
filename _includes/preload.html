@@ -1,0 +1,6 @@
+<div id="preload">
+    <div class="kd-bounce">
+        <div></div>
+        <div></div>
+    </div>
+</div>

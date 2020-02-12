@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body class="home">
+
+	<!-- Wrapper Site -->
+	<div id="main-content">
+
+		<!-- Preload -->
+        {% include preload.html %}
+		<!-- Preload -->
+
+		<!-- Mobile Menu -->
+		{% include menu-mobile.html %}
+		<!-- End Mobile Menu -->
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-3">
+                    {% include side-menu.html %}
+				</div>
+
+				<div class="col-md-9 col-md-offset-3">
+					<div class="projects">
+						{{ content }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Wrapper Site -->
+
+	<!-- Footer -->
+    {% include footer.html %}
+	<!-- End Footer -->
+
+	<!-- Scripts -->
+    {% include scripts.html %}
+	<!-- End Scripts -->
+
+</body>
+</html>
