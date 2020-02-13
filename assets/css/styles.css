@@ -1236,7 +1236,8 @@ body {
 @font-face
 {
 font-family: はれのそら明朝;
-src: url('https://cdn.leafscape.be/Harenosora/harenosora_web.woff2')
+/* src: url('https://cdn.leafscape.be/Harenosora/harenosora_web.woff2') */
+src: url('/assets/fonts/Harenosora.otf')
      format("woff2");
 }
 
