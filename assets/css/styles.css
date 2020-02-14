@@ -1244,6 +1244,7 @@ src: url('/assets/fonts/Harenosora.otf')
 .japanese { font-family: 'はれのそら明朝'; }
 .japanese h2 { font-family: 'はれのそら明朝'; }
 .japanese h4 { font-family: 'はれのそら明朝'; }
+.japanese h5 { font-family: 'はれのそら明朝'; margin-top: 20px; }
 
 .title.japanese {
   margin-top: 0;
@@ -1256,4 +1257,9 @@ src: url('/assets/fonts/Harenosora.otf')
 
 .textbody.japanese {
   font-size: 16px;
+}
+
+.the-content > p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
